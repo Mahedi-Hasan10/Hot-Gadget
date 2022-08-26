@@ -1,0 +1,60 @@
+.navbar img {
+  width: 120px;
+}
+section {
+  padding: 30px;
+}
+
+@media (max-width: 766px) {
+  .col-md-5 {
+    text-align: center;
+  }
+  .col-md-7 img {
+    margin: auto;
+  }
+}
+/* Banner*/
+.carousel-inner {
+  background-image: url("bg-1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 1;
+}
+.carousel-item image {
+  z-index: 0;
+}
+.carousel-item p {
+  color: gray;
+  width: 70%;
+  padding: 10px 0;
+}
+.buy-now-btn {
+  padding: 7px 20px;
+  background: #000;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 7px;
+}
+section h3 {
+  padding: 10px;
+}
+
+.card {
+  border: none;
+  box-shadow: 2px 2px 10px rgba(128, 128, 128, 0.2);
+  border-radius: 10px;
+}
+.card img {
+  width: 200px;
+  height: auto;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Catagories */
+.catagories img {
+  width: 150px;
+  height: auto;
+  margin: auto;
+}
